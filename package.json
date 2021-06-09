@@ -1,0 +1,21 @@
+{
+    "name": "node_test",
+    "version": "1.0.0",
+    "description": "node testpackage",
+    "main": "test.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "execute": "node test.js",
+        "watch": "node test.js"
+    },
+    "author": "urvashi",
+    "license": "ISC",
+    "keywords": [],
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "webpack": "^5.38.1"
+    },
+    "devDependencies": {
+        "uuid": "^8.3.2"
+    }
+}
